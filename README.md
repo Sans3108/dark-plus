@@ -1,6 +1,8 @@
 # Dark+
 A simple recolor of the otherwise classic client. Makes everything darker. That's it.
 
+Colors can be easily changed to fit your needs inside the theme file, be it even darker or lighter (why would you want this).
+
 ## Installation
 - Go inside your themes folder (User settings > Themes > 3 dots > "Open themes folder").
 - In the explorer window that pops up open a command prompt/powershell window and run this command:
