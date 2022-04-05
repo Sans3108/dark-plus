@@ -10,6 +10,8 @@
 }
 
 .theme-dark {
+   /* Colors can be changed here */
+  
   --background-primary: #23272a;
   --background-secondary: #1a1e21;
   --background-secondary-alt: #15181b;
