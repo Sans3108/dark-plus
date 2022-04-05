@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*, *::before, *::after {
+  font-family: 'Nunito', "Comic Sans MS";
+}
+
+.theme-dark {
+  --background-primary: #23272a;
+  --background-secondary: #1a1e21;
+  --background-secondary-alt: #15181b;
+  --background-tertiary: #111416;
+  --channeltextarea-background: #1a1e21;
+  --background-floating: #111416;
+
+  --scrollbar-auto-thumb: #0000004a;
+  --scrollbar-auto-track: #00000036;
+
+  --background-modifier-accent: hsla(0, 0%, 100%, 0.03);
+}
+
+.peopleColumn-1wMU14 {
+  background-color: var(--background-primary);
+}
+
+.wordmark-2u86JB svg {
+  width: 0px;
+}
+
+.wordmark-2u86JB::after {
+  content: 'Dark +';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  font-weight: 700;
+}
