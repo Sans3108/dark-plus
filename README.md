@@ -1,5 +1,5 @@
 # Dark+
-A simple recolor of the otherwise classic client. Makes everything darker. That's it.
+A simple recolor of the otherwise classic client. Makes everything darker. The font has also been changed to [Nunito](https://fonts.google.com/specimen/Nunito).
 
 Colors can be easily changed to fit your needs inside the theme file, be it even darker or lighter. _(why would you want this)_
 
