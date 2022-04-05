@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* I'm too lazy to add comments, figure it out if you really wanna mod this theme */
 
-*, *::before, *::after {
-  font-family: 'Nunito', "Comic Sans MS";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  font-family: 'Nunito', sans-serif;
 }
 
 .theme-dark {
@@ -26,11 +31,49 @@
   width: 0px;
 }
 
+.wordmark-2u86JB::before,
 .wordmark-2u86JB::after {
-  content: 'Dark +';
+  font-family: 'Fira Code', monospace !important;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.wordmark-2u86JB::before {
+  content: 'Dark';
   position: absolute;
   top: 50%;
+  width: max-content;
   transform: translateY(-50%);
-  font-size: 12px;
-  font-weight: 700;
 }
+
+.wordmark-2u86JB::after {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  width: max-content;
+  transform: translateY(-50%) translateX(430%);
+  animation-name: spin;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes spin {
+  0% {
+    transform: translateY(-50%) translateX(430%) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-50%) translateX(430%) rotate(360deg);
+  }
+
+  100% {
+    transform: translateY(-50%) translateX(430%) rotate(720deg);
+  }
+}
+
+.scroller-18M1mG {
+  background-color: var(--background-secondary);
+}
+
+/* Btw the file name is a youtube video id */
