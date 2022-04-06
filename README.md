@@ -13,6 +13,9 @@ The theme is light mode compatible. _(again, what is wrong with you)_
   git clone https://github.com/Sans3108/dark-plus.git
   ```
 
+## Issues
+I will try my best to keep this theme updated, however if you spot something broken or not darkened up, and it's not fixed within a day, please open an [issue](https://github.com/Sans3108/dark-plus/issues) and be as descriptive as you can. Thank you!
+
 ## Previews
 ![](https://media.discordapp.net/attachments/831566039141711872/961007236065394689/unknown.png)
 ![](https://media.discordapp.net/attachments/831566039141711872/961008026603630702/unknown.png)
