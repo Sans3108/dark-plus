@@ -4,6 +4,7 @@ A simple recolor of the otherwise classic client. Makes everything darker. The f
 Colors can be easily changed to fit your needs inside the theme file, be it even darker or lighter. _(why would you want this)_
 
 The theme is light mode compatible. _(again, what is wrong with you)_
+_("compatible" here means: does not break light mode by making dark, it doesn't make sense to make light mode be dark.)_
 
 ## Installation
 - Go inside your themes folder (User settings > Themes > 3 dots > "Open themes folder").
