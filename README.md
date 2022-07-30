@@ -24,7 +24,7 @@ Most other clients have not been tested, because I've never used them. One that 
 
 #### GooseMod + Topaz Installation
 - Open User Settings
-- Go to the `Themes` section insdie the `Topaz` tab
+- Go to the `Themes` section inside the `Topaz` tab
 - Copy and paste the URL of the repo in the text box
 ![](https://media.discordapp.net/attachments/831566039141711872/1002916842337214554/unknown.png)
 _Like this ^_
