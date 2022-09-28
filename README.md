@@ -9,7 +9,7 @@ _("compatible" here means: does not break light mode by making it dark, it doesn
 
 ## Better Discord Installation
 - Go inside your themes folder (User settings > Themes > "Open themes folder").
-- Download the theme file ([fC7oUOUEEi4.theme.css](https://github.com/Sans3108/dark-plus/blob/3c5017b06921102e758f49183b6ed0bd152a9907/fC7oUOUEEi4.theme.css))
+- Download the theme file ([Dark+.theme.css](https://github.com/Sans3108/dark-plus/blob/2bbefff9a853a4c87fd465f48fda85dd15ad6c05/Dark+.theme.css))
 - Move the file to the themes folder
 
 ### Other clients
